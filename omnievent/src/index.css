@@ -1,0 +1,111 @@
+/* ── Riviera Editorial Global Stylesheet ── */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap');
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+:root {
+  --bg-main: #F7F4EC;
+  --bg-secondary: #FFFFFF;
+  --bg-parchment: #E9D8CB;
+  --primary: #E66B45;
+  --secondary: #3457A4;
+  --success: #D6DFB5;
+  --warning: #EBCB73;
+  --danger: #D9534F;
+  --text-main: #252D35;
+  --text-muted: #777B78;
+  --border: #E9E4DA;
+  --font-heading: 'Space Grotesk', -apple-system, sans-serif;
+  --font-body: 'Inter', -apple-system, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+html {
+  scroll-behavior: smooth;
+  color-scheme: light;
+  background-color: var(--bg-main);
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--bg-main);
+  color: var(--text-main);
+  line-height: 1.55;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+  /* Subtle tactile editorial paper grain background */
+  background-image: 
+    radial-gradient(circle at 100% 0%, rgba(230, 107, 69, 0.03) 0%, transparent 40%),
+    radial-gradient(circle at 0% 100%, rgba(52, 87, 164, 0.02) 0%, transparent 45%);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+  letter-spacing: -0.02em;
+  font-weight: 600;
+  color: var(--text-main);
+}
+
+code, pre, .mono, .metric {
+  font-family: var(--font-mono);
+}
+
+/* Subtle architectural scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: var(--bg-main);
+}
+::-webkit-scrollbar-thumb {
+  background: #D8D2C6;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #B6AEA0;
+}
+
+/* Accessible focus ring in warm terracotta */
+:focus-visible {
+  outline: 2px solid var(--primary);
+  outline-offset: 2px;
+}
+
+/* Selection in warm parchment biscuit */
+::selection {
+  background: #E9D8CB;
+  color: var(--text-main);
+}
+
+/* Subtle architectural coordinate grid */
+.architectural-grid {
+  background-size: 40px 40px;
+  background-image:
+    linear-gradient(to right, rgba(233, 228, 218, 0.5) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(233, 228, 218, 0.5) 1px, transparent 1px);
+}
+
+/* Fine architectural dot grid */
+.architectural-dots {
+  background-size: 24px 24px;
+  background-image: radial-gradient(rgba(119, 123, 120, 0.25) 1px, transparent 1px);
+}
+
+/* Reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+#root {
+  min-height: 100vh;
+}

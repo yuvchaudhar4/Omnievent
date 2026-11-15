@@ -1,0 +1,650 @@
+{
+  "eventMeta": {
+    "id": "evt-gu-summit-2026",
+    "name": "Galgotias University AI & Knowledge Conclave 2026",
+    "subtitle": "National Conclave on AI, Scalable Knowledge Graphs & Digital Libraries",
+    "startDate": "2026-11-09",
+    "endDate": "2026-11-09",
+    "venue": "Galgotias University Knowledge Centre (GUKC) & Central Library",
+    "city": "Greater Noida, Uttar Pradesh, India",
+    "maxCapacity": 2200,
+    "status": "live",
+    "primaryOrganizer": "Dr. Debal C. Kar (University Librarian & Head Knowledge Resource Centre)"
+  },
+  "rooms": [
+    {
+      "id": "r1",
+      "name": "GUKC Central Auditorium (Block C)",
+      "capacity": 800,
+      "currentOccupancy": 645,
+      "status": "occupied",
+      "floor": 1,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "dual-4k-laser-projector",
+        "jbl-line-array",
+        "shure-wireless-mics",
+        "livestream-encoder",
+        "ada-hearing-loop"
+      ]
+    },
+    {
+      "id": "r2",
+      "name": "Dr. APJ Abdul Kalam Central Reading Hall",
+      "capacity": 350,
+      "currentOccupancy": 645,
+      "status": "occupied",
+      "floor": 1,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "rfid-kiosks",
+        "webopac-terminals",
+        "high-speed-wifi-6",
+        "digital-signage"
+      ]
+    },
+    {
+      "id": "r3",
+      "name": "AI & Data Science Block Hub (Level 2)",
+      "capacity": 80,
+      "currentOccupancy": 0,
+      "status": "maintenance",
+      "floor": 2,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "nvidia-dgx-workstations",
+        "interactive-touch-displays",
+        "dual-camera-telepresence"
+      ]
+    },
+    {
+      "id": "r4",
+      "name": "Smart Collaborative Discussion Room 1",
+      "capacity": 50,
+      "currentOccupancy": 42,
+      "status": "occupied",
+      "floor": 2,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "4k-touch-whiteboard",
+        "conference-audio-puck"
+      ]
+    },
+    {
+      "id": "r5",
+      "name": "Smart Collaborative Discussion Room 2",
+      "capacity": 50,
+      "currentOccupancy": 645,
+      "status": "occupied",
+      "floor": 2,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "4k-touch-whiteboard",
+        "conference-audio-puck"
+      ]
+    },
+    {
+      "id": "r6",
+      "name": "E-Resource & IEEE Digital Library Centre",
+      "capacity": 120,
+      "currentOccupancy": 98,
+      "status": "occupied",
+      "floor": 2,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "desktop-terminals",
+        "ieee-scopus-gateways",
+        "laser-printers"
+      ]
+    },
+    {
+      "id": "r7",
+      "name": "Block A Multimedia Seminar Hall",
+      "capacity": 250,
+      "currentOccupancy": 195,
+      "status": "occupied",
+      "floor": 1,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "stage-mic-array",
+        "confidence-monitors",
+        "4k-laser-projector"
+      ]
+    },
+    {
+      "id": "r8",
+      "name": "Scholarly Networking Atrium & Cafe",
+      "capacity": 200,
+      "currentOccupancy": 134,
+      "status": "occupied",
+      "floor": 1,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "digital-signage",
+        "espresso-bar",
+        "high-speed-wifi-6"
+      ]
+    },
+    {
+      "id": "r9",
+      "name": "Faculty Research & Executive Lounge",
+      "capacity": 45,
+      "currentOccupancy": 18,
+      "status": "occupied",
+      "floor": 3,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "executive-display",
+        "conference-telepresence"
+      ]
+    },
+    {
+      "id": "r10",
+      "name": "Doctoral Research & Rare Book Carrels",
+      "capacity": 35,
+      "currentOccupancy": 0,
+      "status": "reserved",
+      "floor": 3,
+      "stepFreeAccessible": true,
+      "equipment": [
+        "silent-study-cubicles",
+        "microfilm-scanner"
+      ]
+    }
+  ],
+  "speakers": [
+    {
+      "id": "s1",
+      "name": "Dr. Debal C. Kar",
+      "title": "University Librarian & Head Knowledge Resource Centre",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s2",
+      "name": "Dr. Harish Kumar G. R.",
+      "title": "Dean, School of Computing Science and Engineering (SCSE)",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s3",
+      "name": "Dr. Manish Raj",
+      "title": "Dean, School of Artificial Intelligence",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s4",
+      "name": "Dr. Vineeta Khemchandani",
+      "title": "Dean, School of Computer Applications & Technology",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s5",
+      "name": "Prof. (Dr.) Nitin Kumar Gaur",
+      "title": "Vice-Chancellor",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s6",
+      "name": "Dr. Neha Gupta",
+      "title": "Professor & Lead Researcher, Generative AI Lab",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s7",
+      "name": "Dr. Anupam Kumar Sharma",
+      "title": "Director of Research & Innovation",
+      "company": "Galgotias University"
+    },
+    {
+      "id": "s8",
+      "name": "Prof. Rajeshwari S.",
+      "title": "Head, Cyber Security & DPDP Compliance Cell",
+      "company": "Galgotias University"
+    }
+  ],
+  "sessions": [
+    {
+      "id": "ses1",
+      "title": "Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries",
+      "description": "An architectural perspective on ambient spatial AI, semantic vector search, and digital knowledge graphs transforming university libraries.",
+      "track": "keynote",
+      "status": "live",
+      "roomId": "r2",
+      "startTime": "09:30",
+      "endTime": "2026-11-09T10:00:00",
+      "speakers": [
+        {
+          "id": "s1",
+          "name": "Dr. Debal C. Kar",
+          "title": "University Librarian & Head Knowledge Resource Centre",
+          "company": "Galgotias University"
+        },
+        {
+          "id": "s5",
+          "name": "Prof. (Dr.) Nitin Kumar Gaur",
+          "title": "Vice-Chancellor",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s1",
+      "attendeeCount": 645,
+      "maxAttendees": 800,
+      "rating": 4.9,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses2",
+      "title": "Deep Learning & LLM Fine-Tuning on Campus HPC Clusters",
+      "description": "Distributed model training, GPU memory bandwidth optimization, and data preprocessing inside the AI & Data Science Block.",
+      "track": "workshop",
+      "status": "live",
+      "roomId": "r2",
+      "startTime": "2026-11-09T09:30:00",
+      "endTime": "2026-11-09T11:00:00",
+      "speakers": [
+        {
+          "id": "s2",
+          "name": "Dr. Harish Kumar G. R.",
+          "title": "Dean, School of Computing Science and Engineering (SCSE)",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s2",
+      "attendeeCount": 72,
+      "maxAttendees": 80,
+      "rating": 4.8,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses3",
+      "title": "Transforming Academic Publishing with Open Access & IEEE Xplore",
+      "description": "Strategies for indexing high-impact research papers, navigating open access, and utilizing GUKC institutional repositories.",
+      "track": "workshop",
+      "status": "live",
+      "roomId": "r4",
+      "startTime": "2026-11-09T09:30:00",
+      "endTime": "2026-11-09T11:00:00",
+      "speakers": [
+        {
+          "id": "s7",
+          "name": "Dr. Anupam Kumar Sharma",
+          "title": "Director of Research & Innovation",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s7",
+      "attendeeCount": 42,
+      "maxAttendees": 50,
+      "rating": 4.6,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses4",
+      "title": "Panel: Ethical AI Governance & DPDP Act 2023 in Indian Academia",
+      "description": "Academic leaders and compliance officers address student data privacy, algorithm accountability, and DPDP Act 2023 mandates.",
+      "track": "panel",
+      "status": "live",
+      "roomId": "r7",
+      "startTime": "2026-11-09T09:00:00",
+      "endTime": "2026-11-09T10:30:00",
+      "speakers": [
+        {
+          "id": "s3",
+          "name": "Dr. Manish Raj",
+          "title": "Dean, School of Artificial Intelligence",
+          "company": "Galgotias University"
+        },
+        {
+          "id": "s4",
+          "name": "Dr. Vineeta Khemchandani",
+          "title": "Dean, School of Computer Applications & Technology",
+          "company": "Galgotias University"
+        },
+        {
+          "id": "s8",
+          "name": "Prof. Rajeshwari S.",
+          "title": "Head, Cyber Security & DPDP Compliance Cell",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s3",
+      "attendeeCount": 195,
+      "maxAttendees": 250,
+      "rating": 4.7,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses5",
+      "title": "Scholars Morning Networking & Digital Poster Showcase",
+      "description": "Peer networking, research poster presentations, and scholarly book fair with morning refreshment service.",
+      "track": "networking",
+      "status": "live",
+      "roomId": "r8",
+      "startTime": "2026-11-09T08:30:00",
+      "endTime": "2026-11-09T09:30:00",
+      "speakers": [],
+      "attendeeCount": 134,
+      "maxAttendees": 200,
+      "rating": 4.5,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses6",
+      "title": "Hands-on Workshop: Vector Databases & Semantic WebOPAC Search",
+      "description": "Building vector index embeddings over 130,000+ university library volumes using open-source models.",
+      "track": "breakout",
+      "status": "live",
+      "roomId": "r6",
+      "startTime": "2026-11-09T09:00:00",
+      "endTime": "2026-11-09T10:30:00",
+      "speakers": [
+        {
+          "id": "s6",
+          "name": "Dr. Neha Gupta",
+          "title": "Professor & Lead Researcher, Generative AI Lab",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s6",
+      "attendeeCount": 98,
+      "maxAttendees": 120,
+      "rating": 4.8,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses7",
+      "title": "Valedictory Address & Research Awards Convocation",
+      "description": "Recognizing outstanding research scholars, faculty citations, and presidential closing remarks.",
+      "track": "keynote",
+      "status": "scheduled",
+      "roomId": "r1",
+      "startTime": "2026-11-09T16:00:00",
+      "endTime": "2026-11-09T17:00:00",
+      "speakers": [
+        {
+          "id": "s5",
+          "name": "Prof. (Dr.) Nitin Kumar Gaur",
+          "title": "Vice-Chancellor",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s5",
+      "attendeeCount": 0,
+      "maxAttendees": 800,
+      "rating": 4.9,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses8",
+      "title": "Cyber Security Safeguards for Institutional Repositories",
+      "description": "Mitigating automated credential stuffing, safeguarding digital dissertations, and ransomware resilience.",
+      "track": "workshop",
+      "status": "scheduled",
+      "roomId": "r5",
+      "startTime": "2026-11-09T11:30:00",
+      "endTime": "2026-11-09T13:00:00",
+      "speakers": [
+        {
+          "id": "s8",
+          "name": "Prof. Rajeshwari S.",
+          "title": "Head, Cyber Security & DPDP Compliance Cell",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s8",
+      "attendeeCount": 0,
+      "maxAttendees": 50,
+      "rating": 4.6,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses9",
+      "title": "Industry-Academia Panel on Computing Innovations",
+      "description": "Strengthening R&D partnerships between Galgotias tech labs and Noida/Greater Noida tech corporations.",
+      "track": "panel",
+      "status": "scheduled",
+      "roomId": "r7",
+      "startTime": "2026-11-09T11:00:00",
+      "endTime": "2026-11-09T12:30:00",
+      "speakers": [
+        {
+          "id": "s2",
+          "name": "Dr. Harish Kumar G. R.",
+          "title": "Dean, School of Computing Science and Engineering (SCSE)",
+          "company": "Galgotias University"
+        },
+        {
+          "id": "s4",
+          "name": "Dr. Vineeta Khemchandani",
+          "title": "Dean, School of Computer Applications & Technology",
+          "company": "Galgotias University"
+        }
+      ],
+      "speakerId": "s2",
+      "attendeeCount": 0,
+      "maxAttendees": 250,
+      "rating": 4.7,
+      "requiresStepFreeAccess": true
+    },
+    {
+      "id": "ses10",
+      "title": "High-Tea & Collaborative Academic Exchange",
+      "description": "Networking roundtables and collaborative research discourse in the Central Library Atrium.",
+      "track": "networking",
+      "status": "scheduled",
+      "roomId": "r8",
+      "startTime": "2026-11-09T12:30:00",
+      "endTime": "2026-11-09T14:00:00",
+      "speakers": [],
+      "attendeeCount": 0,
+      "maxAttendees": 200,
+      "rating": 4.4,
+      "requiresStepFreeAccess": true
+    }
+  ],
+  "incidents": [
+    {
+      "id": "inc1",
+      "title": "High-Density Wi-Fi Bandwidth Saturation at AI Hub",
+      "description": "Concurrent LLM fine-tuning downloads causing packet drops and latency spikes in AI & Data Science Block Hub.",
+      "severity": "high",
+      "status": "resolved",
+      "roomId": "r3",
+      "type": "equipment_failure",
+      "reportedAt": "2026-11-09T09:15:00",
+      "assignee": "Er. Vikram Sharma (Campus IT Network Cell)",
+      "resolvedAt": "2026-11-12T12:53:18.869Z"
+    },
+    {
+      "id": "inc2",
+      "title": "Main RFID Anti-theft Turnstile Gate 2 Sensor Desync",
+      "description": "Optical barcode and RFID desync at Ground Floor Dr. APJ Abdul Kalam Central Reading Hall entrance.",
+      "severity": "medium",
+      "status": "investigating",
+      "roomId": "r2",
+      "type": "equipment_failure",
+      "reportedAt": "2026-11-09T09:20:00",
+      "assignee": "GUKC Technical Automation Team"
+    },
+    {
+      "id": "inc3",
+      "title": "HVAC Climate Drift in Smart Discussion Room 1",
+      "description": "Zone sensor reading 26.8°C above comfort threshold in Smart Collaborative Discussion Room 1.",
+      "severity": "medium",
+      "status": "open",
+      "roomId": "r4",
+      "type": "room_unavailable",
+      "reportedAt": "2026-11-09T09:30:00",
+      "assignee": "Estate & Facilities Directorate"
+    }
+  ],
+  "resources": [
+    {
+      "id": "res-1",
+      "name": "Student Volunteer Marshals (SCSE & AI Society)",
+      "category": "volunteer",
+      "allocated": 18,
+      "forecastNeeded": 14,
+      "location": "GUKC Main Portico & Foyer",
+      "status": "surplus",
+      "costPerUnit": 15
+    },
+    {
+      "id": "res-2",
+      "name": "OPAC Helpdesk Assistants & Microphone Runners",
+      "category": "volunteer",
+      "allocated": 6,
+      "forecastNeeded": 10,
+      "location": "Level 2 Corridor & Discussion Wings",
+      "status": "shortage",
+      "costPerUnit": 15,
+      "assignedRoomId": "r3"
+    },
+    {
+      "id": "res-3",
+      "name": "Scholarly Conclave High-Tea & Espresso Service",
+      "category": "catering",
+      "allocated": 650,
+      "forecastNeeded": 750,
+      "location": "Scholarly Networking Atrium",
+      "status": "shortage",
+      "costPerUnit": 3,
+      "assignedRoomId": "r8"
+    },
+    {
+      "id": "res-4",
+      "name": "Conference Luncheon Covers (Faculty & Delegates)",
+      "category": "catering",
+      "allocated": 1400,
+      "forecastNeeded": 1300,
+      "location": "Central Dining Pavilion",
+      "status": "surplus",
+      "costPerUnit": 8
+    },
+    {
+      "id": "res-5",
+      "name": "NVIDIA A100 GPU High-Performance Compute Blades",
+      "category": "equipment",
+      "allocated": 8,
+      "forecastNeeded": 6,
+      "location": "AI & Data Science Block Hub",
+      "status": "optimal",
+      "costPerUnit": 250,
+      "assignedRoomId": "r3"
+    },
+    {
+      "id": "res-6",
+      "name": "Dual 4K Laser Projector Rig & Shure Stage Mics",
+      "category": "equipment",
+      "allocated": 12,
+      "forecastNeeded": 10,
+      "location": "Central Auditorium AV Control Booth",
+      "status": "optimal",
+      "costPerUnit": 120,
+      "assignedRoomId": "r1"
+    }
+  ],
+  "messages": [
+    {
+      "id": "msg-autodraft-1794487998876",
+      "audience": "incident_affected",
+      "targetSessionTitle": "Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries",
+      "targetRoomName": "Dr. APJ Abdul Kalam Central Reading Hall",
+      "title": "Notice: \"Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries\" Relocated to Dr. APJ Abdul Kalam Central Reading Hall",
+      "content": "Due to maintenance in AI & Data Science Block Hub (Level 2), session is relocated to Dr. APJ Abdul Kalam Central Reading Hall (Floor 1). Wayfinding maps have updated automatically.",
+      "channel": "push",
+      "status": "approved",
+      "timestamp": "06:23 pm",
+      "recipientsCount": 645,
+      "isAutoDraft": true,
+      "dispatchedAt": "2026-11-12T12:53:18.877Z"
+    },
+    {
+      "id": "msg-autodraft-1794487982977",
+      "audience": "incident_affected",
+      "targetSessionTitle": "Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries",
+      "targetRoomName": "Smart Collaborative Discussion Room 2",
+      "title": "Notice: \"Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries\" Relocated to Smart Collaborative Discussion Room 2",
+      "content": "Due to maintenance in AI & Data Science Block Hub (Level 2), session is relocated to Smart Collaborative Discussion Room 2 (Floor 2). Wayfinding maps have updated automatically.",
+      "channel": "push",
+      "status": "approved",
+      "timestamp": "06:23 pm",
+      "recipientsCount": 645,
+      "isAutoDraft": true,
+      "dispatchedAt": "2026-11-12T12:53:02.978Z"
+    },
+    {
+      "id": "msg-autodraft-1794487892946",
+      "audience": "incident_affected",
+      "targetSessionTitle": "Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries",
+      "targetRoomName": "Dr. APJ Abdul Kalam Central Reading Hall",
+      "title": "Notice: \"Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries\" Relocated to Dr. APJ Abdul Kalam Central Reading Hall",
+      "content": "Due to maintenance in AI & Data Science Block Hub (Level 2), session is relocated to Dr. APJ Abdul Kalam Central Reading Hall (Floor 1). Wayfinding maps have updated automatically.",
+      "channel": "push",
+      "status": "approved",
+      "timestamp": "06:21 pm",
+      "recipientsCount": 645,
+      "isAutoDraft": true,
+      "dispatchedAt": "2026-11-12T12:51:32.947Z"
+    },
+    {
+      "id": "msg-autodraft-1794487892812",
+      "audience": "incident_affected",
+      "targetSessionTitle": "Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries",
+      "targetRoomName": "Dr. APJ Abdul Kalam Central Reading Hall",
+      "title": "Notice: \"Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries\" Relocated to Dr. APJ Abdul Kalam Central Reading Hall",
+      "content": "Due to maintenance in AI & Data Science Block Hub (Level 2), session is relocated to Dr. APJ Abdul Kalam Central Reading Hall (Floor 1). Wayfinding maps have updated automatically.",
+      "channel": "push",
+      "status": "approved",
+      "timestamp": "06:21 pm",
+      "recipientsCount": 645,
+      "isAutoDraft": true,
+      "dispatchedAt": "2026-11-12T12:51:32.813Z"
+    },
+    {
+      "id": "msg-autodraft-1794487892777",
+      "audience": "incident_affected",
+      "targetSessionTitle": "Deep Learning & LLM Fine-Tuning on Campus HPC Clusters",
+      "targetRoomName": "Dr. APJ Abdul Kalam Central Reading Hall",
+      "title": "Notice: \"Deep Learning & LLM Fine-Tuning on Campus HPC Clusters\" Relocated to Dr. APJ Abdul Kalam Central Reading Hall",
+      "content": "Due to maintenance in AI & Data Science Block Hub (Level 2), session is relocated to Dr. APJ Abdul Kalam Central Reading Hall (Floor 1). Wayfinding maps have updated automatically.",
+      "channel": "push",
+      "status": "approved",
+      "timestamp": "06:21 pm",
+      "recipientsCount": 72,
+      "isAutoDraft": true,
+      "dispatchedAt": "2026-11-12T12:51:32.778Z"
+    },
+    {
+      "id": "msg-1",
+      "audience": "all",
+      "title": "Welcome to Galgotias University AI & Knowledge Conclave 2026",
+      "content": "Registration and RFID digital badging are active at GUKC Central Portico. Access WebOPAC and IEEE e-resources via campus Wi-Fi.",
+      "channel": "push",
+      "status": "dispatched",
+      "timestamp": "08:30 AM",
+      "recipientsCount": 1850,
+      "dispatchedAt": "2026-11-09T08:30:00"
+    },
+    {
+      "id": "msg-2",
+      "audience": "session",
+      "targetSessionTitle": "Inaugural Keynote: AI-Driven Knowledge Systems & Modern Academic Libraries",
+      "targetRoomName": "GUKC Central Auditorium (Block C)",
+      "title": "Seating Open for Inaugural Keynote",
+      "content": "Doors are open in GUKC Central Auditorium (Block C). Reserved seating for Deans and Faculty in Rows A-C.",
+      "channel": "whatsapp",
+      "status": "dispatched",
+      "timestamp": "08:45 AM",
+      "recipientsCount": 645,
+      "dispatchedAt": "2026-11-09T08:45:00"
+    }
+  ],
+  "personalAgendas": {
+    "default_user": [
+      "ses1",
+      "ses2",
+      "ses4"
+    ]
+  }
+}
